@@ -1,0 +1,126 @@
+.form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .form-container .form-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .form-container .form-subtitle a {
+    color: #f97316;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    margin-bottom: 0.6rem;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
+    padding: 0.6rem 0.5rem;
+    padding-right: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .input-wrapper select {
+    width: 100%;
+    padding: 0.6rem 0.5rem;
+    padding-right: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  
+  .input-wrapper .icon {
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+  }
+  
+  .form-container .forgot-link {
+    text-align: right;
+    margin-bottom: 1.2rem;
+    font-size: 0.85rem;
+    color: #f97316;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"] {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #2563eb;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-button {
+    flex: 1;
+    padding: 0.6rem 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 0.6rem;
+  }
+  
+  .social-apple { background-color: black; }
+  .social-facebook { background-color: #3b5998; }
+  .social-spotify { background-color: #1DB954; }
+  .social-google { background-color: #DB4437; }
+  .social-sso {
+    width: 100%;
+    background-color: #e5e7eb;
+    color: #333;
+    padding: 0.6rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .message{
+    color: red;
+  }
+  

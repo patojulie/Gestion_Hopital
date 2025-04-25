@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #e6f0f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .nav-links a {
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: #2a5d9f;
+    font-weight: 500;
+  }
+  
+  .cta-buttons button {
+    margin-left: 0.5rem;
+    background-color: #2a5d9f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .hero {
+    /* background: url('https://via.placeholder.com/1600x500') center/cover no-repeat; */
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .hero-buttons button {
+    margin: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #34a97f;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services, .advantages, .testimonials, .footer {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2a5d9f;
+  }
+  
+  .services-list, .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 250px;
+  }
+  
+  .testimonials blockquote {
+    font-style: italic;
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+  
+  .footer {
+    background-color: #e6f0f8;
+    color: #444;
+    font-size: 0.9rem;
+  }
+  
+  .footer-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+  
