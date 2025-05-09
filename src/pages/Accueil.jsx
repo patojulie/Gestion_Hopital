@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import Modal from '../components/Modal';
 import LoginForm from '../components/LoginForm';
 import RegisterForm from '../components/RegistrerForm';
+import MedecinDashboard from './medecin/MedecinDashboard';
 
 const Accueil = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -27,10 +28,11 @@ const Accueil = () => {
   return (
     <div className={modalOpen ? 'blurred-background' : ''}>
       <Header onLogin={() => openModal('login')} onRegister={() => openModal('register')} />
-      <Hero />
+      <MedecinDashboard/>
+      {/* <Hero />
       <Services />
       <Advantages />
-      <Testimonials />
+      <Testimonials /> */}
       <Footer />
 
       <Modal isOpen={modalOpen} onClose={closeModal}>

@@ -16,7 +16,7 @@ app.use(cors({
 app.use('/api/users', userRoute);
 
 
-sequelize.sync({ force: true })
+sequelize.sync({ alter: true })
   .then(() => console.log('Base synchronisée avec toutes les tables'))
   .catch(err => console.error('Erreur de synchronisation', err));
 
